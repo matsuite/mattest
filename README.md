@@ -1,2 +1,2 @@
 # mattest
-Testing library for mattex
+Testing library for matsuite
