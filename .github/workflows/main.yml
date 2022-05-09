@@ -24,4 +24,4 @@ jobs:
         with:
           # This part is also where you can pass other options, for example:
           prettier_options: --write **/*.{js,md}
-          token: ${{ secrets.WORKFLOW_GITHUB_TOKEN || github.token }}
+          github_token: ${{ secrets.WORKFLOW_GITHUB_TOKEN || github.token }}
