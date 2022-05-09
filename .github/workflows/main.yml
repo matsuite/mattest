@@ -1,6 +1,6 @@
 name: Continuous Integration
 
-# This action works with pull requests and pushes
+# This action works with pull requests and any pushes
 on:
   pull_request:
   push:
